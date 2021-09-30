@@ -1,0 +1,1 @@
+var inputDate = document.querySelector("#date")
