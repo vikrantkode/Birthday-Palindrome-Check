@@ -1,7 +1,30 @@
-:root{
-   
+body{
+    background-color: aqua;
 }
 
-body{
-    background-color: grey;
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input {
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+#check-btn {
+    margin-bottom: 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 0.4rem;
+    width: 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#output-div {
+    margin: 0.3rem;
+    font-size: x-large;
 }
